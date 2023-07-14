@@ -5,11 +5,11 @@ const style = {
   fontSize: 14,
 }
 
-function displayFormattedProductCount() {
+const displayFormattedProductCount = () => {
   return productCount > 0 ? productCount : 'Zero'
 }
 
-function Products() {
+const Products = () => {
   return (
     <ul className="list-group shadow">
       <li className="list-group-item">
