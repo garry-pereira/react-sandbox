@@ -1,10 +1,10 @@
 import './App.css'
-import Products from './Components/Products'
+import Complete from './Components/Complete'
 
 const App = () => {
   return (
     <div className="container">
-      <Products />
+      <Complete />
     </div>
   )
 }
